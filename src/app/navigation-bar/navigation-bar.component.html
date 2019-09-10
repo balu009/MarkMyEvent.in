@@ -1,0 +1,27 @@
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-light sticky-top navbar-default ml-auto">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse-nav" (click)="navbarCollapsed = !navbarCollapsed">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse-nav" [ngbCollapse]="navbarCollapsed">
+        <a class="navbar-brand"><img src="../../assets/images/log-small.PNG"></a>
+            <ul class="navbar-nav ml-auto navbar-list">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Vendor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+    </div>
+    </nav>
+

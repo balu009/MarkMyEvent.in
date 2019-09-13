@@ -1,7 +1,6 @@
 /* $primary-color = A9030A*/
 
-
-
+@import '../app/utilities/colors.scss';
 
 *,
 *::after,
@@ -17,7 +16,8 @@ html {
 
 body {
     box-sizing: border-box;
-    background-color: lightgrey !important;
+    font-family: 'Didact Gothic', sans-serif;
+    line-height: 3;
 }
 
 .row{
@@ -26,5 +26,20 @@ body {
 }
 
 .u-center-text {
-    text-align: center !important;
+    text-align: center;
+}
+
+.u-margin-bottom {
+  margin-bottom: 4rem;
+}
+
+.u-title-hr {
+  border-top: 2px solid $color-primary;
+  margin-left: 36rem;
+  margin-right: 36rem;
+}
+
+.u-title {
+  font-family: 'Cinzel' , serif;
+  font-weight: 700;
 }
